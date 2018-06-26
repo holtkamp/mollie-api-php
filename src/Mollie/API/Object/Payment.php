@@ -223,6 +223,14 @@ class Mollie_API_Object_Payment
 	public $mandateId;
 
 	/**
+	 * The settlement ID this payment belongs to.
+	 *
+	 * @example stl_rVKGtNd6s3
+	 * @var string|null
+	 */
+	public $settlementId;
+	
+	/**
 	 * The subscription ID this payment belongs to.
 	 *
 	 * @example sub_rVKGtNd6s3
